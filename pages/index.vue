@@ -2,10 +2,9 @@
   <v-layout row wrap>
     <v-flex pa-1 xs4 v-for="project in $store.state.projects" :key="project.id">
       <v-card>
-        <v-card-title class="headline text-uppercase">{{ project.title }}</v-card-title>
-        <v-divider></v-divider>
+        <v-card-title light class="primary headline grey--text text--darken-3 font-weight-black text-uppercase">{{ project.title }}</v-card-title>
         <v-card-text>
-          <p>
+          <p class="text-truncate">
             <strong>Description</strong>: {{ project.desc }}
           </p>
           <p>

@@ -1,6 +1,6 @@
 export const state = () => ({
   projects: []
-})
+});
 
 export const mutations =  {
   newProject (state, project) {
@@ -9,4 +9,4 @@ export const mutations =  {
   newTask (state, payload) {
     console.log("New Task");
   }
-}
+};

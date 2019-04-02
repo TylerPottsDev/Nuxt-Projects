@@ -1,7 +1,7 @@
 <template>
   <nav>
     <v-toolbar>
-      <nuxt-link to="/"><v-toolbar-title class="text-uppercase">Nuxt<span class="yellow--text">Projects</span>!</v-toolbar-title></nuxt-link>
+      <nuxt-link to="/"><v-toolbar-title class="text-uppercase font-weight-black">Nuxt<span class="primary--text font-weight-light">Projects</span>!</v-toolbar-title></nuxt-link>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat @click="createModal = !createModal">Create Project</v-btn>

@@ -1,6 +1,6 @@
-# nuxt-project
+# Nuxt Projects
 
-> My polished Nuxt.js project
+> A NuxtJS Project Management Tool.
 
 ## Build Setup
 
